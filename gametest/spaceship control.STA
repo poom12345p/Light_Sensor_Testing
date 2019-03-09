@@ -1,0 +1,71 @@
+
+ROM used:   1990/8192 (24%)
+            1990/8192 (24%) including unused fragments
+
+            0.7 Average locations per line
+            3.4 Average locations per statement
+
+RAM used:   55/368 (15%) at main() level
+            93/368 (25%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   76    29   5  spaceship control.c
+  761     0   0  ..\..\EmbedLap\Devices\16F886.h
+   23     0   0  serialinput.h
+ 1352   359  61  ..\..\EmbedLap\Drivers\stdlib.h
+   32     0   0  ..\..\EmbedLap\Drivers\stddef.h
+  435   129  22  ..\..\EmbedLap\Drivers\string.h
+   28     0   0  ..\..\EmbedLap\Drivers\ctype.h
+   86    68  12  serialinput.c
+----- -----
+ 2793   585 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0    117   6   13             @MULFF
+0     29   1    2             @ITOF
+0    321  16   16             @ADDFF
+ Inline        14             @DIVFF
+0    490  25   19   1549 12.4  strtof
+0     20   1    1             @delay_ms1
+0    236  12    4    923  6.3  MAIN
+0      6   0    0             @const884
+0     88   4    4    965  8.2  @PSTRINGC7_115200_62_63
+0     91   5    9    965  8.2  @PRINTF_LU_115200_62_63
+0      3   0    0    965  8.2  @const896
+0      6   0    0    965  8.2  @const897
+ Inline         5    965  8.2  @FTOSD
+0     79   4   13    965  8.2  @DIV3232
+0    228  11   13     69  1.6  @PRINTF_L32D_115200_62_63FPFPF
+0     91   5    5     69  1.6  @PSTRINGCN7_115200_62_63
+0     94   5    4    965  8.2  ser_isr
+0     10   1    0     69  1.6  initSerInput
+ Inline         0    965  8.2  @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              585
+    Comments                959
+    Volume (V)              16168
+    Difficulty (D)          88.8
+    Effort to implement (E) 1435275
+    Time to implement (T)   22 hours, 9 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   87
+    Maintainability (MI)    104
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00050    77  0  
+00051-007FF  1909  58  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

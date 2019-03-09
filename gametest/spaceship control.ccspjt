@@ -1,0 +1,46 @@
+[PROJECT]
+Target=spaceship control.hex
+Processor_Text=PIC16F886
+CCSVersion=5.074
+Compiler=PCM
+[Target Data]
+FileList=spaceship control.c
+[spaceship control.c]
+Type=4
+[mru-list]
+1=spaceship control.c
+
+[defines]
+buildcount=2
+
+[ProjectLog]
+Days=3
+D1=27-02-2019
+D1_L=2
+D1_L1=[71135]Started Editing.
+D1_L2=[71435]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D2=28-02-2019
+D2_E=1
+D2_D=0
+D2_L=1
+D2_L1=[8146]Project Closed.
+D3=09-03-2019
+D3_L=1
+D3_L1=[56908]Project Opened.
+
+[Opened Files]
+1=..\spaceship control.c
+t1=1
+2=..\..\EmbedLap\Lab2\Lab2.c
+t2=9
+3=spaceship control.c
+t3=9
+Count=3
+[Units]
+Count=1
+1=spaceship control (main)
+
+[fileformats]
+forcecoff=0

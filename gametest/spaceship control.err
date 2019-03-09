@@ -1,0 +1,5 @@
+>>> Warning 203 "spaceship control.c" Line 42(1,1): Condition always TRUE
+>>> Warning 202 "spaceship control.c" Line 37(12,13): Variable never used:   j
+      Memory usage:   ROM=24%      RAM=15% - 25%
+      0 Errors,  2 Warnings.
+Build Successful.
