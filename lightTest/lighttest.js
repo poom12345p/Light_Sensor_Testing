@@ -64,7 +64,9 @@ function setup() {
 
    ws.onopen = function()
    {
-   	ws.send("open COM5 115200 tinyg");
+	   	ws.send("list");
+		ws.send("close COM3");
+   	ws.send("open COM3 115200 tinyg");
       // Web Socket is connected, send data using send()
 
    };
